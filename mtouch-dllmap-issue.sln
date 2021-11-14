@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MtouchDllmapIssue", "MtouchDllmapIssue.csproj", "{F93A3D6C-E32F-418A-8A7C-935C16477784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Debug|iPhone.Build.0 = Debug|iPhone
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Release|iPhone.ActiveCfg = Release|iPhone
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Release|iPhone.Build.0 = Release|iPhone
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Release|iPhone.Deploy.0 = Release|iPhone
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{F93A3D6C-E32F-418A-8A7C-935C16477784}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
