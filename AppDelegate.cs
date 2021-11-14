@@ -32,7 +32,7 @@ namespace MtouchDllmapIssue
             return true;
         }
 
-        [DllImport("__Internal")]
+        [DllImport("mtouch-issue-library")]
         public static extern int GetNumber();
     }
 }
