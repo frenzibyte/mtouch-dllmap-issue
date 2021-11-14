@@ -11,6 +11,7 @@
         <AssemblyName>MtouchDllmapIssue</AssemblyName>
         <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
         <CodesignKey>iPhone Developer</CodesignKey>
+        <MtouchVerbosity>4</MtouchVerbosity>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
         <DebugSymbols>true</DebugSymbols>
@@ -35,6 +36,7 @@
         <MtouchLink>None</MtouchLink>
         <MtouchArch>x86_64</MtouchArch>
         <ConsolePause>false</ConsolePause>
+        <MtouchNoSymbolStrip>false</MtouchNoSymbolStrip>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
         <DebugSymbols>true</DebugSymbols>
@@ -61,6 +63,7 @@
         <MtouchArch>ARM64</MtouchArch>
         <ConsolePause>false</ConsolePause>
         <CodesignKey>iPhone Developer</CodesignKey>
+        <MtouchNoSymbolStrip>false</MtouchNoSymbolStrip>
     </PropertyGroup>
     <ItemGroup>
         <Compile Include="Main.cs" />
