@@ -84,5 +84,12 @@
     <ItemGroup>
         <Folder Include="Resources\" />
     </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)libmtouch-issue-library.a">
+            <LogicalName>libmtouch-issue-library.a</LogicalName>
+            <WithCulture>False</WithCulture>
+            <Type>Non-Resx</Type>
+        </EmbeddedResource>
+    </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

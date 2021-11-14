@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
 using CoreGraphics;
 using Foundation;
 using UIKit;
@@ -21,8 +23,17 @@ namespace MtouchDllmapIssue
             // make the window visible
             Window.MakeKeyAndVisible();
             
+            var alert = UIAlertController.Create("From native library", $"The number is: {GetNumber()}", UIAlertControllerStyle.Alert);
+
+            Debug.Assert(Window.RootViewController != null);
+            
+            Window.RootViewController.PresentViewController(alert, true, null);
+
             return true;
         }
+
+        [DllImport("__Internal")]
+        public static extern int GetNumber();
     }
 }
 
